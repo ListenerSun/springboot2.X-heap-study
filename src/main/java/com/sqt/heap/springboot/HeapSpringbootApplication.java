@@ -1,6 +1,6 @@
 package com.sqt.heap.springboot;
 
-import com.sqt.heap.springboot.autoconfigure.enable.EnableMyServer;
+import com.sqt.heap.springboot.autoconfigure.enabled.EnableMyServer;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

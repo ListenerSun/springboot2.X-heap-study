@@ -1,4 +1,4 @@
-package com.sqt.heap.springboot.autoconfigure.enable;
+package com.sqt.heap.springboot.autoconfigure.enabled;
 
 import org.springframework.context.annotation.Bean;
 
