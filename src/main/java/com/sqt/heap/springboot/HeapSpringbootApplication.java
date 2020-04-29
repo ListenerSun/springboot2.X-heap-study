@@ -1,6 +1,6 @@
 package com.sqt.heap.springboot;
 
-import com.sqt.heap.springboot.autoconfigure.enabled.EnableMyServer;
+import com.sqt.heap.springboot.autoconfigure.enabled.EnableHelloWold;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,7 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @ServletComponentScan(basePackages = "com.sqt.heap.springboot.web.servlet")
 @SpringBootApplication
-@EnableMyServer
+@EnableHelloWold
 public class HeapSpringbootApplication {
 
 	public static void main(String[] args) {

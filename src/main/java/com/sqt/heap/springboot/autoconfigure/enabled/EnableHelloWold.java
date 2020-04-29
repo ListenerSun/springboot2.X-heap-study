@@ -13,5 +13,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Import(HelloWorldImportSelector.class)
-public @interface EnableMyServer  {
+public @interface EnableHelloWold {
 }

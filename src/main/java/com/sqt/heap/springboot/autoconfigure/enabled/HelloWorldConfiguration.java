@@ -11,6 +11,6 @@ public class HelloWorldConfiguration {
 
     @Bean
     public String hellWorld() {
-        return "hello world";
+        return " ListenerSun hello world !";
     }
 }
