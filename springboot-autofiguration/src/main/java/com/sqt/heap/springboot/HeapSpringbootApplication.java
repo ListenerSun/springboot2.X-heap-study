@@ -19,5 +19,4 @@ public class HeapSpringbootApplication {
 		String bean = context.getBean("hellWorld", String.class);
 		System.out.println("helloWorld Bean :" + bean);
 	}
-
 }

@@ -9,9 +9,20 @@
      </parent>
      <modelVersion>4.0.0</modelVersion>
 
-     <artifactId>springboot-autofiguration</artifactId>
-
+     <artifactId>springboot-webmcv</artifactId>
+     <packaging>jar</packaging>
      <dependencies>
+          <!-- Servlet 3.1 API 依赖-->
+          <dependency>
+               <groupId>javax.servlet</groupId>
+               <artifactId>javax.servlet-api</artifactId>
+               <scope>provided</scope>
+          </dependency>
+
+          <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter</artifactId>
+          </dependency>
           <dependency>
                <groupId>org.springframework.boot</groupId>
                <artifactId>spring-boot-starter-web</artifactId>
